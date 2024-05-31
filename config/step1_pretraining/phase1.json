@@ -1,0 +1,57 @@
+{
+    "data_setups":{
+        "labeled":{
+            "root": "/home/data/MEDIAR/",
+            "mapping_file": "./train_tools/data_utils/mapping_labeled.json",
+            "mapping_file_tuning": "./train_tools/data_utils/mapping_tuning.json",
+            "batch_size": 3, 
+            "valid_portion": 0
+        },
+        "public":{
+            "enabled": false,
+            "params":{}
+        }     
+    },
+    "train_setups":{
+        "model":{
+            "name": "mediar-mamba",
+            "params": {},
+            "pretrained":{
+                "enabled": false
+            }
+        },
+        "trainer": {
+            "name": "mediar",
+            "params": {            
+                "num_epochs": 1,
+                "valid_frequency": 1,
+                "device": "cuda:0",
+                "amp": true,
+                "algo_params": {"with_public": false}
+            }
+        },
+        "optimizer":{
+            "name": "adamw",
+            "ft_rate": 1.0,
+            "params": {"lr": 5e-5}
+        },
+        "scheduler":{
+            "enabled": true,
+            "name": "cosine",
+            "params": {"T_max": 1, "eta_min": 1e-6}
+        },
+        "seed": 19940817
+    },
+    "pred_setups":{
+        "input_path":"/home/data/MEDIAR/Official/Tuning/images",
+        "output_path": "./mediar_pretrained_phase1",
+        "make_submission": false,
+        "exp_name": "mediar_phase1",
+        "algo_params": {"use_tta": false}
+    },
+    "wandb_setups":{
+        "project": "CellSeg",
+        "group": "Pretraining",
+        "name": "phase1"
+    }
+}
