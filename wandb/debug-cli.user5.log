@@ -1,0 +1,62 @@
+2024-05-24 11:45:04 INFO open for scan: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/run-ddo8vqfy.wandb
+2024-05-24 11:45:06 INFO watching files in: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files
+2024-05-24 11:45:06 INFO run started: ddo8vqfy with start time 1716451814.50288
+2024-05-24 11:45:06 INFO saving file wandb-metadata.json with policy now
+2024-05-24 11:45:06 INFO saving file media/graph/graph_0_summary_964a14cd750a06d342b6.graph.json with policy now
+2024-05-24 11:45:07 INFO file/dir created: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:07 INFO Uploaded file /tmp/tmphipxz8vxwandb/pizce4ib-wandb-metadata.json
+2024-05-24 11:45:08 INFO Uploaded file /tmp/tmphipxz8vxwandb/wdb09q16-media/graph/graph_0_summary_964a14cd750a06d342b6.graph.json
+2024-05-24 11:45:08 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:10 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:12 INFO saving file wandb-summary.json with policy end
+2024-05-24 11:45:12 INFO handling exit code: 1
+2024-05-24 11:45:12 INFO handling runtime: 27394
+2024-05-24 11:45:13 INFO saving file wandb-summary.json with policy end
+2024-05-24 11:45:13 INFO send defer
+2024-05-24 11:45:13 INFO handle sender defer: 0
+2024-05-24 11:45:13 INFO send defer: 1
+2024-05-24 11:45:13 INFO handle sender defer: 1
+2024-05-24 11:45:13 INFO send defer: 2
+2024-05-24 11:45:13 INFO handle sender defer: 2
+2024-05-24 11:45:13 INFO send defer: 3
+2024-05-24 11:45:13 INFO handle sender defer: 3
+2024-05-24 11:45:13 INFO send defer: 4
+2024-05-24 11:45:13 INFO handle sender defer: 4
+2024-05-24 11:45:13 INFO send defer: 5
+2024-05-24 11:45:13 INFO handle sender defer: 5
+2024-05-24 11:45:13 INFO send defer: 6
+2024-05-24 11:45:13 INFO handle sender defer: 6
+2024-05-24 11:45:13 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/wandb-summary.json
+2024-05-24 11:45:13 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:13 INFO send defer: 7
+2024-05-24 11:45:13 INFO handle sender defer: 7
+2024-05-24 11:45:14 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/config.yaml
+2024-05-24 11:45:14 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:14 INFO send defer: 8
+2024-05-24 11:45:14 INFO handle sender defer: 8
+2024-05-24 11:45:14 INFO Attempting to build job artifact
+2024-05-24 11:45:14 WARNING No requirements.txt found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+2024-05-24 11:45:14 INFO send defer: 9
+2024-05-24 11:45:14 INFO handle sender defer: 9
+2024-05-24 11:45:14 INFO shutting down directory watcher
+2024-05-24 11:45:15 INFO file/dir modified: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:15 INFO scan: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/conda-environment.yaml conda-environment.yaml
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/wandb-metadata.json wandb-metadata.json
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/config.yaml config.yaml
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/wandb-summary.json wandb-summary.json
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log output.log
+2024-05-24 11:45:15 INFO scan save: /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/media/graph/graph_0_summary_964a14cd750a06d342b6.graph.json media/graph/graph_0_summary_964a14cd750a06d342b6.graph.json
+2024-05-24 11:45:15 INFO send defer: 10
+2024-05-24 11:45:15 INFO handle sender defer: 10
+2024-05-24 11:45:15 INFO shutting down file pusher
+2024-05-24 11:45:15 INFO shutting down sender
+2024-05-24 11:45:15 INFO shutting down file pusher
+2024-05-24 11:45:15 INFO waiting for file pusher
+2024-05-24 11:45:16 INFO Uploaded file /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/config.yaml
+2024-05-24 11:45:16 INFO Uploaded file /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/conda-environment.yaml
+2024-05-24 11:45:16 INFO Uploaded file /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/output.log
+2024-05-24 11:45:17 INFO Uploaded file /home/user5/MEDIAR/wandb/offline-run-20240523_161014-ddo8vqfy/files/wandb-summary.json
+2024-05-24 11:45:17 INFO send defer: 11
+2024-05-24 11:45:17 INFO file stream finish called
+2024-05-24 11:45:24 INFO file stream finish is done
